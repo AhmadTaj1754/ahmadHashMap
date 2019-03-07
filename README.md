@@ -14,10 +14,10 @@ import hashMap
 
 Example of creating and using instance of hashMap:
 
->>> import hashMap
->>> map = hashMap.HashMap(22)
->>> map.assign("City", "Cambridge, MA")
->>> map.retrieve("City")
+ import hashMap
+ map = hashMap.HashMap(22)
+ map.assign("City", "Cambridge, MA")
+ map.retrieve("City")
     'Cambridge, MA'
 
 
